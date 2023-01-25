@@ -39,7 +39,7 @@ provided all set and ready for your first working example)
 
 or to update if your VM is already up
 
-`vagrant provision galaxy`
+`vagrant provision galaxy1`
 
 
 License
