@@ -32,7 +32,15 @@ provided all set and ready for your first working example)
 - Edit `/etc/hosts` to add your hostname as it appears in `galaxyservers.inv`
 
  
- 
+### Then you are ready to build
+- At the root of the repo
+
+`vagrant up galaxy1` 
+
+or to update if your VM is already up
+
+`vagrant provision galaxy`
+
 
 License
 -------
