@@ -10,7 +10,6 @@ Vagrant.configure("2") do |config|
 
     galaxy1.vm.provision :ansible do | ansible |
       ansible.galaxy_role_file = "galaxy1/requirements.yml"
-      ansible.inventory_path = "./galaxy1/"
       ansible.inventory_path = "./galaxy1/galaxyservers.inv"
       ansible.playbook = "./galaxy1/main.yml"
       ansible.host_key_checking = false

@@ -8,7 +8,7 @@ upstream galaxy {
 
 server {
 
-    listen        *:80 default_server;
+    listen        *:443 ssl default_server;
 
     # The virtualhost is our domain name
     server_name "{{ inventory_hostname }}";
